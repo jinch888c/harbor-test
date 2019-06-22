@@ -1,0 +1,6 @@
+- name: install VMWare Harbor registry
+  hosts: all
+  roles:
+    - mkgin.vmware-harbor
+  vars:
+    - harbor_hostname: 35.226.42.2
