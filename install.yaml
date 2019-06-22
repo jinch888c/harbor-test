@@ -5,3 +5,4 @@
   vars:
     - harbor_hostname: 35.226.42.2
     - harbor_install_skip_docker_compose: True
+    - harbor_install_upload_localcopy_of_installer: /tmp/harbor-offline-installer-v1.1.2.tgz
