@@ -4,3 +4,4 @@
     - mkgin.vmware-harbor
   vars:
     - harbor_hostname: 35.226.42.2
+    - harbor_install_skip_docker_compose: True
